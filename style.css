@@ -2,7 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-style: Roboto sans-serif;
+    font-family: Roboto sans-serif;
 }
 
 .container {
@@ -118,7 +118,7 @@ button.hero:hover{
     color: #1E2937;
     font-weight: 900;
     text-align: center;
-    padding: 20 0 20px 0;
+    padding: 20px 0 50px 0;
     width: 100%;
 }
 
@@ -144,3 +144,26 @@ button.hero:hover{
     text-align: center;
     color: #1F2937;
 }
+
+.container.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0 100px 0;
+}
+
+.the-quote {
+    width: 70%;
+    display: flex row;
+}
+
+.quote.text{
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.quote.author {
+    font-weight: 900;
+    justify-self: end;
+}
+
