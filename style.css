@@ -1,0 +1,146 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: Roboto sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container.dark {
+    background-color: #1f2937;
+    padding: 10px 0 100px 0;
+}
+
+.container.footer {
+    background-color: #1f2937;
+    padding: 10px 0 10px 0;
+    color: #e5e7eb8c;
+    font-size: 18px;
+}
+
+.container.white {
+    background-color: white;
+    padding: 10px 0 100px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.navbar.link {
+    text-decoration: none;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 0 0 24px;
+}
+
+.navbar.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar.logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.hero.header {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-bottom:16px;
+}
+
+.hero.text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom:16px;
+}
+
+.hero.img {
+    padding: 40px 100px 40px 100px;
+    background-color: grey;
+    flex: 1;
+    color: #e5e7eb;
+    align-self: stretch;
+    text-align: center;
+}
+
+.hero.content {
+    flex: 1;
+    margin-right: 24px;
+}
+
+button.hero {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+button.hero:hover{
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content.header {
+    font-size: 36px;
+    color: #1E2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 20 0 20px 0;
+    width: 100%;
+}
+
+.main-content.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+}
+
+.card{
+    width: 100px;
+}
+.card-item {
+    width: 100%;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    color: #1F2937;
+}
